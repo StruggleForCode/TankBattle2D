@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1695331797870250}
+  m_IsPrefabParent: 1
+--- !u!1 &1695331797870250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4228672332875162}
+  - component: {fileID: 114580416964221564}
+  m_Layer: 0
+  m_Name: MapCreation2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228672332875162
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1695331797870250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 214.5, y: -75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114580416964221564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1695331797870250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9981761221df2e74cb508cf30ffd2769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item:
+  - {fileID: 1888799948898454, guid: 060e81fb0113bba4693d4063e5065349, type: 2}
+  - {fileID: 1544662622187796, guid: b3aa0491d89010b4eaf4c5cee0adae6e, type: 2}
+  - {fileID: 1298502988470032, guid: 5f8da0fbee6b81f47af1528d800a9d1e, type: 2}
+  - {fileID: 1936742209052134, guid: 2b97ed86c5844c042944ef3389e76f3a, type: 2}
+  - {fileID: 1758163598008698, guid: bd748a54fa3606a419132088a8d53d92, type: 2}
+  - {fileID: 1544662622187796, guid: 945480833c0e5824d854df8dde799359, type: 2}
+  - {fileID: 1149115877148832, guid: d5b034eda71d1f142b3d8fc3f784d763, type: 2}
+  - {fileID: 1936742209052134, guid: cc398d3e598910145ab249fad2a9b32d, type: 2}
+  Bonus:
+  - {fileID: 1436030136915940, guid: 2913736a6eab2e14a9725505d8bc26aa, type: 2}
+  - {fileID: 1066693387732372, guid: 588fc79eca328484497e86f4dceab741, type: 2}
+  - {fileID: 1760764240578144, guid: b283fcd64a627d64c9131ea9627b68df, type: 2}
+  - {fileID: 1678871490037454, guid: ebf40338831857940a08b3d50ed74a53, type: 2}
+  - {fileID: 1342180865942826, guid: 82ea0ed72a16dce4aab339b9979b04cb, type: 2}
+  - {fileID: 1666714742334490, guid: 41535de2b4090384793e89c02155d865, type: 2}
+  enemyDie: 0
+  ishavetwoPlayer: 1
